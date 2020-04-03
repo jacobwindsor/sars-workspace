@@ -1,0 +1,9 @@
+[submodule "packages/pvjs"]
+	path = packages/pvjs
+	url = https://github.com/wikipathways/pvjs
+[submodule "packages/kaavio"]
+	path = packages/kaavio
+	url = https://github.com/wikipathways/kaavio
+[submodule "packages/sars-cov-2-narrative"]
+	path = packages/sars-cov-2-narrative
+	url = git@github.com:jacobwindsor/sars-cov-2-narrative.git
