@@ -6,7 +6,8 @@
       "sars-cov-2-narrative": "0.1.0"
     },
     "scripts": {
-        "start": "yarn workspace sars-cov-2-narrative run start"
+        "start": "yarn workspace sars-cov-2-narrative run start",
+        "build": "yarn workspaces run build"
       },
     "workspaces": [
       "packages/*"
