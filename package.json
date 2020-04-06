@@ -6,11 +6,14 @@
       "sars-cov-2-narrative": "0.1.0"
     },
     "scripts": {
+        "watch:kaavio": "yarn workspace kaavio run watch",
+        "watch:pvjs": "yarn workspace @wikipathways/pvjs run watch",
         "start": "yarn workspace sars-cov-2-narrative run start",
         "build": "yarn workspaces run build"
       },
     "workspaces": [
-      "packages/*"
+      "packages/sars-cov-2-narrative",
+      "packages/pvjs"
     ]
   }
   
